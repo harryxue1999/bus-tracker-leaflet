@@ -2,7 +2,7 @@
   "name": "bus-tracker-leaflet",
   "version": "0.0.1",
   "scripts": {
-    "start": "cd server && node index.js"
+    "start": "cd site && node index.js"
   },
   "dependencies": { "mime": "~1.2.7" },
   "repository": {
