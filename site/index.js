@@ -31,8 +31,8 @@ function serverWorking (response, absPath) {
 var server = http.createServer(function (request, response) {
 	var filePath;
 	// TODO fix the filePath
-	if (request.url === '/') filePath = 'site/index.html';
-	else filePath = 'site' + request.url;
+	if (request.url === '/') filePath = 'index.html';
+	else filePath = request.url;
 	
 	serverWorking(response, "./" + filePath);
 });
