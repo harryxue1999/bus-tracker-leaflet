@@ -1,0 +1,18 @@
+{
+  "name": "bus-tracker-leaflet",
+  "version": "0.0.1",
+  "scripts": {
+    "start": "cd server && node index.js"
+  },
+  "dependencies": { "mime": "~1.2.7" },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/harryxue1999/bus-tracker-leaflet.git"
+  },
+  "author": "Harry Xue",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/harryxue1999/bus-tracker-leaflet/issues"
+  },
+  "homepage": "https://github.com/harryxue1999/bus-tracker-leaflet#readme"
+}
